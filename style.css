@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+/*declaration*/
+* { box-sizing:border-box; }
+body{margin: 0;padding: 0;font-family: "Open Sans",sans-serif;font-weight: 400;font-size: 14px;line-height:1.2;}
+h1{font-weight: 800;font-size: 70px;line-height: 1;margin: 0;padding: 0;color: white;}
+h2{font-weight: 600;font-size: 35px;line-height: 1.1;padding: 0;margin: 0;color: #f7600e;}
+h3{font-weight: 600;font-size: 16px;line-height: 2.5;padding: 0;margin: 0;}
+h4{font-weight: 400;font-size: 16px;line-height: 1.8;padding: 0;margin: 0;}
+h5{font-weight: 400;font-size: 16px;line-height: 1.8;padding: 0;margin: 0;}
+h6{font-weight: 400;font-size: 14px;line-height: 1.8;padding: 0;margin: 0;}
+p{margin: 0;}
+/*container declaration*/
+.container{padding: 0 15px;max-width: 1170px;margin: auto;}
+.container1{padding: 0;max-width: 1320px;margin:auto;}
+.clearfix{display: block}
+.clearfix:before, .clearfix:after { content:''; display:table; width:100%; }
+img { max-width:100%; height:auto; vertical-align: middle; }
+.text:hover{background-color: #f7600e;cursor: pointer;opacity: 0.9;}
+/*introduction page*/
+.introductionpage{background-image: url("image/background image.png");background-size: cover;padding-top: 51px;padding-bottom: 51px;background-repeat: no-repeat;background-position: center center;}
+/*logo & menu*/
+.logo_menu{vertical-align: top;}
+.logo{float: left;padding-left: 30px;}
+.menu{float: right;}
+.menu a{display: inline-block;line-height: 17px;text-decoration: none;color: white;padding-right: 13px;vertical-align: middle;margin-right: -4px;}
+.menuicon{display: inline-block;vertical-align: middle;margin-right: -4px;}
+.menuicon1{width: 26px;height: 2px;display: block;background-color: white;margin:0 7px 7px 7px;}
+.menuicon2{width: 26px;height: 2px;display: block;background-color: white;margin: 7px;}
+.menuicon3{width: 26px;height: 2px;display: block;background-color: white;margin:7px 7px 0 7px;}
+/*title*/
+.sectionfirst{text-align: center;padding-top: 184px;}
+.colorchange1{color: #f7600e;}
+.introline{padding-top: 19px;max-width:775px;margin: 0 auto;font-size: 25px;color: white;line-height:1.6}
+/*buttons*/
+.twobutton{padding-top: 64px;text-align: center;}
+.firstbutton{padding: 0 15px;display: inline-block;vertical-align: middle;margin-right: -4px;}
+.first1{border-radius: 10px;border: 1px solid #65696e;transition:all ease 0.3s;color: white;font-weight: 600;font-size: 16px;line-height: 40px;min-width: 210px;display: inline-block;padding: 4px 0;}
+.first1:hover{background-color: #f7600e;cursor: pointer;border-color: #f7600e;}
+.first1 a{text-decoration: none;color: white;}
+/*angle down */
+.arrow{padding-top: 196px;}
+.angledownarrow{border:2px solid white;color: white;border-radius: 50px;width: 34px;text-align: center;margin: 0 auto;height: 34px;line-height: 30px;}
+/*second section*/
+.secondsection{padding-top: 101px;padding-bottom: 109px;}
+/*work1*/
+.typesofwork{margin: 0 -15px;}
+.work1{width: 25%;display: inline-block;text-align: center;margin-right: -4px;}
+.work1image{width: 150px;height: 150px;border: 1px solid #c8cacd;border-radius: 50%;text-align: center;margin: 0 auto;line-height: 150px;}
+.work1image img{max-width: 100%;}
+.secondsectiontitlecontain{max-width: 290px;margin: 0 auto;}
+.titleofwork1 {color: #3b434c;padding-top: 16px;}
+.descriptionofwork1{max-width: 180px;margin: 0 auto;padding-top: 8px;color: #3b434c;font-size: 14px;line-height: 25px;}
+/*third section*/
+.subscribefornews{background-image: url("image/background3 image.png");background-size:100% 100%;background-repeat: no-repeat;padding-top: 100px;padding-bottom: 100px;background-position: center center;}
+.inputbutton{text-align: center;}
+.enteryouremail{display: inline-block;vertical-align: middle;margin: -4px;padding-right: 30px;width: 562px;}
+.enter{border:none;border-radius: 10px;font-family: "Open Sans",sans-serif;font-size: 16px;line-height: 40px;font-weight: 200;color:#7e8286;padding: 5px 24px 5px 24px;width: 100%;}
+/*subscribe button*/
+.subscribebutton{display: inline-block;vertical-align: middle;margin-right:-4px; }
+.subscribe{width: 269px;background-color:transparent;text-align: center;border-radius: 10px;border: 1px solid #9da1a5;color: white;font-family: "Open Sans",sans-serif;font-weight: 600;font-size: 16px;line-height: 40px;padding: 4px 0;}
+.subscribe:hover{cursor: pointer;background-color: #f7600e;border-color: #f7600e;}
+/*fourth section*/
+.fourth{margin: 0 -15px;padding-bottom: 108px;padding-top: 91px;}
+.ourworks{text-align: center;}
+.our{color: #3b434c;}
+.fourthsectiondescription{max-width: 455px;text-align: center;margin: 0 auto;padding-top: 13px;color: #3b434c;line-height: 30px;}
+.imagesection1{padding-top: 81px;}
+/*1 to 6 image*/
+.fourthimage3,.fourthimage2,.fourthimage1,.fourthimage4,.fourthimage5,.fourthimage6{ width: 33.33%; display: inline-block; vertical-align: top; margin-right: -4px;padding: 15px;}
+.imageTag1{background-image: url("image/fourth 1.png");background-repeat: no-repeat; height: 360px;background-size: cover;border-radius: 10px;}
+.imageTag2{background-image: url("image/fourth 2.png");background-repeat: no-repeat; height: 360px;background-size: cover;border-radius: 10px;}
+.imageTag3{background-image: url("image/fourth 3.png");background-repeat: no-repeat;height: 360px;background-size: cover;border-radius: 10px;}
+.imageTag4{background-image: url("image/fourth 4.png");background-repeat: no-repeat;height: 360px;background-size: cover;border-radius: 10px;}
+.imageTag5{background-image: url("image/fourth 5.png");background-repeat: no-repeat;height: 360px;background-size: cover;border-radius: 10px;}
+.imageTag6{background-image: url("image/fourth 6.png");background-repeat: no-repeat;height: 360px;background-size: cover;border-radius: 10px;}
+/*internal text*/
+.text{text-align: center;opacity: 0;border-radius: 10px;transition:all ease 0.8s;height: 100%;}
+.texttitle{color: white;font-size: 25px;line-height: 40px;font-weight: 600;padding-top: 75px;}
+.textdescription{color: white;margin: 0 auto;text-align: center;font-size: 14px;line-height: 26px;width: 251px;padding-top: 9px;}
+.internalbutton{padding-top:49px;}
+.internalbuttontag a{border-radius: 10px;cursor: pointer;background-color: white;font-family: "Open Sans",sans-serif;font-weight: 600;font-size: 16px;line-height: 40px;text-decoration: none;color: #f7600e;display: inline-block;vertical-align: middle;margin-right: -4px;width: 210px;padding:5px 0;}
+/*show more button*/
+.showmore{padding-top: 95px;text-align: center;}
+.showmorebutton a{color: #3b434c;background-color: white;border-radius: 10px;border:1px solid #d8d9db;font-family: "Open Sans",sans-serif;font-weight: 600;font-size: 16px;line-height: 2.5
+;text-decoration: none;display: inline-block;vertical-align: middle;margin-right: -4px;width: 210px;padding:4px 0;transition: all ease 0.3s;}
+.showmorebutton:hover a{background-color: #f7600e;color: white;cursor: pointer;border-color: #f7600e;}
+/*fifth section*/
+.fifthsection{background-image: url("image/background5 image.png");background-size: cover;padding-top: 101px;padding-bottom: 95px;background-position:center center;background-repeat: no-repeat;}
+.leftarrow{display: inline-block;vertical-align: middle;margin-right: -4px;width: 5%;}
+.rightarrow{display: inline-block;vertical-align: middle;margin-right: -4px;width: 5%;}
+.johnsmithdetails{padding: 0 15px;max-width: 1170px;display: inline-block;vertical-align: middle;text-align: center;width: 90%;margin-right: -4px;}
+.imageofjohnsmith{text-align: center;}
+.johnsmithquote{text-align: center;padding-top: 40px;max-width: 799px;margin: 0 auto;font-size: 25px;line-height: 40px;font-style: italic;color: #ffffff;}
+.johnsmithname{padding-top: 26px;max-width: 94px;margin: 0 auto;text-align: center;font-size: 18px;line-height: 40px;font-weight:600;color: #ffffff;}
+/*sixth ssection*/
+.sixthsection{padding-bottom: 94px;padding-top: 92px;}
+.sixthsectiondescription{padding-top: 16px;max-width: 470px;margin: 0 auto;text-align: center;color: #3b434c;font-size: 16px;line-height: 1.8;}
+.CATHERINAGAIL{padding-top: 125px;}
+.sixthimage1{filter: grayscale(10);height: 453px;}
+.sixthimage1{text-align: center;width: 25%;display: inline-block;margin-right: -4px;vertical-align: top;}
+.image1 img{width: 235px;height:284px;border: 1px solid #c4c6c9;border-radius: 10px;transition:all ease 0.8s;}
+.sixthsectionname{color:#9da1a5;padding-top: 32px;transition:all ease 0.3s;font-size: 25px;line-height: 10px;font-weight:600;}
+.sixthsectiondetails{color: #9da1a5;transition:all ease 0.3s;font-size: 14px;line-height: 26px;padding-top: 12px;}
+.icon{padding-top: 28px;padding-bottom: 10px;}
+.icon img{width: 23px;height: 23px;border: none;}
+.facebookicon{display: inline-block;margin-right: -4px;padding-right: 7px;padding-left: 7px;}
+.twittericon{display: inline-block;margin-right: -4px;padding-right: 7px;padding-left: 7px;}
+.googleicon{display: inline-block;margin-right: -4px;padding-right: 7px;padding-left: 7px;}
+/*hover effect*/
+.sixthimage1:hover img{transform:scale(1.1);border-bottom: 3px solid #f7600e;cursor: pointer;}
+.sixthimage1:hover{filter: none;cursor: pointer;}
+.sixthimage1:hover .icon img{border: none;cursor: pointer;}
+.sixthimage1:hover .sixthsectionname{color: #3b434c;filter: none;cursor: pointer;}
+.sixthimage1:hover .sixthsectiondetails{color: #3b434c;filter: none;cursor: pointer;}
+/*dots*/
+.dots{text-align: center;padding-top: 88px;}
+.dots1{display: inline-block;vertical-align: middle;width: 12px;height: 12px;border: 1px solid #c4c6c9;background-color: #c4c6c9;border-radius: 50%;margin-left: 5px;margin-right: 5px;transition: all ease 0.3s;}
+.dots1:hover{background-color: #f7600e;transform: scale(1.5);border-color: #f7600e;transition: all ease 0.3s;}
+/*seventh section*/
+.seventhsection{background-image: url("image/seventh background.png");background-size: cover;background-repeat: no-repeat;background-position: center center;padding-top:94px;padding-bottom: 140px;}
+.sayhello{max-width: 184px;margin: 0 auto;}
+.say{color: white;}
+.seventhsectiondescription{color: #d9dadb;max-width: 465px;margin: 0 auto;text-align: center;line-height: 30px;padding-top: 14px;}
+/*input details*/
+.inputdetails{text-align: center;}
+.twoblockdetails{padding-top: 90px;}
+.inputemailaddress{display: inline-block;margin-right: -4px;padding: 0 15px;vertical-align: middle;max-width: 429px;width: 100%;}
+.email{border-radius: 10px;border: none;padding: 17px 20px;width: 100%}
+.inputsubject{display: inline-block;margin-right: -4px;padding: 0 15px;vertical-align: middle;max-width: 429px;width: 100%;}
+.subject{border-radius: 10px;border: none;padding: 17px 20px;width: 100%}
+.inputyourmessage{padding-top: 31px;max-width: 829px;height: 229px;text-align: center;margin: 0 auto;}
+.yourmessage{border-radius: 10px;border: none;width: 100%;height: 100%;padding-bottom: 153px;padding-left: 19px;padding-right: 19px;}
+/*button for hire us*/
+.hireus{display: inline-block;vertical-align: middle;margin-right: -4px;font-size: 16px;line-height: 2.5;font-weight: 600;padding-top: 29px;padding-right: 141px;}
+.hireusbutton{background-color: transparent;border-radius: 10px;color: white;width:210px;padding: 17px 0 16px 0;border: 1px solid #9da1a5;transition: all ease 0.3s;}
+.hireusbutton:hover{background-color: #f7600e;color: white;cursor: pointer;border-color: #f7600e;}
+.socialmediaicon{text-align: center;display: inline-block;vertical-align: middle;margin-right: -4px;padding-top: 20px;padding-left: 141px;}
+.socialmediaicon ul li{display: inline-block;}
+/*!*facebook*!*/
+.fa-facebook{color: white;padding-top: 13px;width: 43px;height: 43px;border-radius: 50%;background-color: #205b9f;margin-right: 15px;}
+/*twitter*/
+.fa-twitter{color: white;padding-top: 13px;width: 43px;height: 43px;border-radius: 50%;background-color: #00ace3;margin-right: 15px;}
+/*google*/
+.fa-google-plus{color: white;padding-top: 13px;width: 43px;height: 43px;border-radius: 50%;background-color: #ff3921;margin-right: 15px;}
+/*dribbble*/
+.fa-dribbble{color: white;padding-top: 13px;width: 43px;height: 43px;border-radius: 50%;background-color: #ff72a5;margin-right: 15px;}
+/*behance*/
+.fa-behance{color: white;padding-top: 13px;width: 43px;height: 43px;border-radius: 50%;background-color: #009bd5;margin-right: 15px;}
+/*footer section*/
+.footersection{background-color:#283645; border-bottom: 1px solid #e6e9ed;padding-bottom: 45px;padding-top: 42px;color: white;}
+.design_logo{float: right;}
+.lasttextoffooter{float: left;}
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Responsive Media Queries CSS
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+@media (max-width: 1310px) {
+    .container { max-width: 1130px }
+
+}
+@media (max-width:1230px ) {
+    .container{ max-width:1000px }
+    .leftarrow{padding-left: 30px;}
+    .image1 img{width: 200px;height: 250px;}
+}
+@media (max-width:1080px ) {
+    .container{ max-width:900px }
+    .fourthimage3,.fourthimage2,.fourthimage1,.fourthimage4,.fourthimage5,.fourthimage6,.sixthimage1{width: 50%;}
+    .image1 img{width: 235px;height: 284px;}
+    .icon{padding-top: 20px;}
+    .sixthsectiondetails{padding: 0;font-size: 18px;}
+    .CATHERINAGAIL{padding-top: 50px;}
+    .sixthsectiondescription,.seventhsectiondescription,.fourthsectiondescription{max-width: 100%;font-size: 20px;}
+    .titleofwork1 h3{font-size: 20px;}
+    .descriptionofwork1{font-size: 17px;max-width: 100%;}
+}
+@media (max-width:991px ) {
+    .container{ max-width:700px }
+    .menu a{display: none;}
+    .title h1{font-size: 60px;}
+    .introline{font-size: 20px;max-width: 100%;}
+    .arrow{padding-top: 96px;}
+    .secondsection{padding: 80px 0;}
+    .work1{width: 50%;padding: 20px;}
+    .secondsectiontitlecontain{max-width: 100%;}
+    .enteryouremail{padding-right: 15px;width: 450px;}
+    .subscribe{width: 200px;}
+    .inputemailaddress,.inputsubject{max-width: 100%;padding: 10px 0;}
+    .inputyourmessage{padding-top: 10px;}
+    .hireus,.socialmediaicon{display: block;padding: 20px 0;}
+    .socialmediaicon ul {margin: 0;padding: 0;}
+
+}
+@media (max-width:767px ) {
+    .container{ max-width:100%; padding-left:15px; padding-right:15px; }
+    .firstbutton{display: block;padding: 10px 0;}
+    .work1{width: 100%;}
+    .enter,.subscribe{padding: 0;}
+    .fourthimage3, .fourthimage2, .fourthimage1, .fourthimage4, .fourthimage5, .fourthimage6, .sixthimage1{display: block;margin: 0 auto;}
+    .leftarrow,.rightarrow{display: none;}
+    .johnsmithdetails{width: 100%;}
+}
+@media (max-width: 600px) {
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
